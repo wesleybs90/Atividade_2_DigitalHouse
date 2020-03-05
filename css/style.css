@@ -29,8 +29,11 @@ body {
     width: 70px;
 }
 
-#header ul{
+#header nav {
     float: right;
+}
+
+#header ul{
     margin-top: 25px;
     margin-left: 25px;
 }
@@ -45,9 +48,55 @@ body {
     height: 500px;
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 #banner p{
     padding-top: 240px;
+}
+
+#photos div div {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photos div {
+    margin: 0 auto;
+    width: 1331px;
+}
+
+#box1 {
+    background-image: url(../img/product-1.png);
+
+}
+
+#box2 {
+    background-image: url(../img/product-2.jpg);
+}
+
+#box3 {
+    background-image: url(../img/product-3.jpg);
+}
+
+#box4 {
+    background-image: url(../img/product-4.jpg);
+}
+
+#box5 {
+    background-image: url(../img/product-5.jpg);
+}
+
+#box6 {
+    background-image: url(../img/product-6.jpg);
+}
+
+footer {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
 }
