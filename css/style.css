@@ -4,8 +4,6 @@ height,
 display: inline-block,
 margin,
 padding,
-
-
 */
 
 body {
@@ -94,6 +92,31 @@ body {
     background-image: url(../img/product-6.jpg);
 }
 
+#banner button:hover, #photos button:hover{
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+
+#banner button {
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#photos button {
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
 footer {
     background-color: purple;
     color: #fff;
